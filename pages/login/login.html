@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entre na sua conta - Crazy People - a rede social da suas loucuras</title>
+    <link href="../../css/global.css" rel="stylesheet" />
+    <link href="../../css\fontawesome\css\all.min.css" rel="stylesheet" />
+    <link href="login.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="grid-vertical">
+        <div class="container-content" >
+            <h1 class="title"> Bem vindode volta <br />à loucura!</h1>
+            <form id="form-login" class="form-centered" onsubmit="return false" method="post">
+                <div class="form-group">
+                    <label>E-mail </label>
+                    <input type="email" id="email" name="email" placeholder="email@email.com" />
+                </div>
+                <div class="form-group">
+                    <label>Senha </label>
+                    <div class="input-password" >
+                        <input type="password" id="password" name="password" />
+                        <i class="fa-regular fa-eye icon-eye"></i>
+                        <!-- <i class="fa-regular fa-eye-slash"></i> -->
+                    </div>
+                </div>
+                <div class="tips">
+                    <div class="tip">
+                        <div class="tip-icon error" id="error-uppercase"></div>
+                        <div class="tip-text" >Uma letra maíuscula.</div>
+                    </div>
+                    <div class="tip">
+                        <div class="tip-icon success" id="error-number" ></div>
+                        <div class="tip-text" >Um número.</div>                        
+                    </div>
+                    <div class="tip">
+                        <div class="tip-icon success" id="error-lowecase" ></div>
+                        <div class="tip-text" >Uma letra minúscula.</div>
+                    </div>
+                    <div class="tip">
+                        <div class="tip-icon success" id="error-minlenght"></div>
+                        <div class="tip-text" >No mínimo 8 caracteres.</div>
+                    </div>
+                </div>
+                <div class="center">
+                    <a href="../recovery-password/recovery-password.html" class="general">Esqueci minha senha</a>
+                </div>
+            </form>    
+        </div>
+        <div class="group-buttons"> 
+            <a class="button button-primary" href="../feed/feed.html">Logar</a>
+            <a class="button button-cancel" href="../../index.html">Cancelar</a>    
+        </div>
+    </div>
+</body>
+</html>
