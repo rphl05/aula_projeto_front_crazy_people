@@ -37,7 +37,7 @@ body{
     align-items: center;
     height: 20vh;
 }
-a.button{
+a.button, input.button{
     display: flex;
     flex: 1;
     border-radius: 24px;
@@ -108,7 +108,7 @@ a.button{
     top: 13px;
     right: -10px;
     color: #afb1b6
-    cursor:pointer;
+    cursor: pointer;
 }
 .form-group input::placeholder{
     color:#afb1B6;
@@ -120,6 +120,8 @@ a.button{
 .form-centered{
     margin:auto;
     width: 85%;
+    display:flex;
+    flex-direction: column;
 }
 .center{
     display: flex;
@@ -144,7 +146,7 @@ a.general:hover{
     border-width: 0px;
     height: 28px;
 }
-.error{
+.error-input{
     color: #c00;
     display:none;
     font-size: 0.6rem;
